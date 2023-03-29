@@ -1,8 +1,7 @@
 # project
-  [![License](https://img.shields.io/badge/License-APACHE_2.0-red.svg)](https://opensource.org/licenses/APACHE_2.0)
-exists
-## License
-APACHE_2.0
+[![License](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)
+## Description
+yes
 ## Install
 yes
 ## Usage
@@ -11,3 +10,5 @@ yes
 yes
 ## Tests
 yes
+## License 
+ https://www.spdx.org/licenses/MIT

@@ -11,7 +11,7 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   if (license === 'None') {
     return "";
-  } else return
+  } else return `https://www.spdx.org/licenses/${license}`
 }
 
 // TODO: Create a function that returns the license section of README
@@ -19,16 +19,15 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   if (license === 'None') {
     return "";
-  } else return
+  } else return `## License \n ${renderLicenseLink(license)}`
 }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
 ${renderLicenseBadge(data.license)}
+## Description
 ${data.description}
-## License
-${data.license}
 ## Install
 ${data.install}
 ## Usage
@@ -37,6 +36,7 @@ ${data.use}
 ${data.contribution}
 ## Tests
 ${data.test}
+${renderLicenseSection(data.license)}
 `;
 }
 
