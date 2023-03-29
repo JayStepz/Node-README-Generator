@@ -19,7 +19,7 @@ const questions = [
             type: 'list',
             name: 'license',
             message: 'What license would you like to use?',
-            choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None'],
+            choices: ['MIT', 'APACHE_2.0', 'GPL_3.0', 'BSD_3', 'None'],
         },
         {
             type: 'input',
@@ -45,7 +45,7 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    return fs.writeFile(fileName, data, err => {
+    return fs.writeFileSync(fileName, data, err => {
         if (err) {
             console.log('There was an issue generating your README.md');
         } else {

@@ -1,13 +1,13 @@
-# Project
-  
-Exists
+# project
+  [![License](https://img.shields.io/badge/License-APACHE_2.0-red.svg)](https://opensource.org/licenses/APACHE_2.0)
+exists
 ## License
-MIT
+APACHE_2.0
 ## Install
-Install
+yes
 ## Usage
-Better than me
+yes
 ## Contributions
-Yes.
+yes
 ## Tests
-index.test.js
+yes
