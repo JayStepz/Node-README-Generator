@@ -3,17 +3,17 @@
 
 ## Table of Contents
 
-[Description](##description)
+[Description](#description)
 
-[Install](##install)
+[Install](#install)
 
-[Usage](##usage)
+[Usage](#usage)
 
-[Contributions](##contributions)
+[Contributions](#contributions)
 
-[Tests](##tests)
+[Tests](#tests)
 
-[Questions](##questions)
+[Questions](#questions)
 
 ## Description
 It exists.
